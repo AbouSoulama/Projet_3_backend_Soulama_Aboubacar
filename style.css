@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 645px;
+    background-image: linear-gradient(rgba(63, 62, 62, 0.5),rgba(66, 61, 61, 0.8)),url(images/H-tel-Sopatel-Silmand-Ouagadougou-Exterior.jpg);
+    
+    
+}
+nav a{
+    font-size: 1.5rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header h1{
+    color: coral;
+    font-size: 4rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    padding-top: 5%;
+    
+}
+header p{
+    color: whitesmoke;
+    font-size: 1.2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    padding-top: 3%;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+header button{
+    width: 200px;
+    height: 40px;
+    border-radius: 8px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1rem;
+    background: rgb(255, 81, 81);
+    color: white;
+    text-align: center;
+    margin-left: 40%;
+    margin-top: 5%;
+}
+header button:hover{
+    background: violet;
+}
+header img{
+    width: 100px;
+    height: 50px;
+    
+}
+.im{
+    display: flex;
+    justify-content: space-between;
+}
+.i1{
+    margin-top: 1%;
+    margin-left: 5%;
+}
+.i2{
+    margin-top: 1%;
+    margin-right: 5%;
+}
+
